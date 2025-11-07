@@ -8,6 +8,7 @@ import { ItemCertificado } from './components/item-certificado/item-certificado'
 import { BaseUi } from './components/base-ui/base-ui';
 import { Certificados } from './pages/certificados/certificados';
 import { CertificadoForm } from './pages/certificado-form/certificado-form';
+import { Certificado } from './pages/certificado/certificado';
 
 @Component({
   selector: 'app-root',
@@ -21,6 +22,7 @@ import { CertificadoForm } from './pages/certificado-form/certificado-form';
     BaseUi,
     Certificados,
     CertificadoForm,
+    Certificado,
   ],
   templateUrl: './app.html',
   styleUrl: './app.css',
