@@ -7,6 +7,7 @@ import { SecondButton } from './components/second-button/second-button';
 import { ItemCertificado } from './components/item-certificado/item-certificado';
 import { BaseUi } from './components/base-ui/base-ui';
 import { Certificados } from './pages/certificados/certificados';
+import { CertificadoForm } from './pages/certificado-form/certificado-form';
 
 @Component({
   selector: 'app-root',
@@ -19,6 +20,7 @@ import { Certificados } from './pages/certificados/certificados';
     ItemCertificado,
     BaseUi,
     Certificados,
+    CertificadoForm,
   ],
   templateUrl: './app.html',
   styleUrl: './app.css',
